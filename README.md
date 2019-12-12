@@ -28,7 +28,7 @@ $ docker-compose exec -e APP_ENV=dev php bin/console doctrine:fixture:load -n
 
 API endpoint
 ```bash
-$ http://product.localhost/api/product
+http://product.localhost/api/product
 ```
 
 Response
